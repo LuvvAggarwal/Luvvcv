@@ -1,0 +1,170 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.Heading {
+  background-color: #b2ebf2;
+  border: 0.625rem;
+  position: relative;
+  padding: 6.25rem 6.25rem 0;
+}
+
+.sub-Heading{
+  font-size: 3.125rem;
+
+}
+
+
+.mountain {
+  margin: auto;
+  height: 20rem;
+  width: auto;
+}
+
+.above-cloud {
+  height: 4rem;
+  width: auto;
+  position: absolute;
+  top: 6.25rem;
+  left: 16rem ;
+}
+
+.bottom-cloud {
+  height: 4rem;
+  width: auto;
+  position: absolute;
+  bottom: 18.75rem;
+  right: 12.5rem;
+}
+
+.middle-container{
+  margin: 6.25rem 0;
+}
+
+.profile {
+  margin: 6.25rem auto;
+}
+
+.profile-img-container {
+  height: 12rem;
+  width: 12rem;
+  margin: 3.125rem auto  ;
+border: 1rem solid teal;
+border-radius: 100%;
+}
+.profile-img {
+  position: relative;
+  align-content: center;
+  margin: 0.625rem;
+  z-index: -1;
+  height: 10rem;
+  width: auto;
+
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+
+.skills {
+  margin: 6.25rem;
+}
+
+.skill-row{
+  width: 50%;
+  text-align: left;
+  margin: 6.125rem auto;
+}
+
+.UIUX{
+  width: 25%;
+  float: left;
+  margin-right: 2rem;
+}
+
+.code{
+  width: 25%;
+  float: right;
+  margin-left: 2rem;
+}
+
+
+.btn {
+	box-shadow: 1px 1px 4px 1px #3b3b3b;
+	background:linear-gradient(to bottom, #1085b0 5%, #00bbd4 100%);
+	background-color:#1085b0;
+	border-radius:28px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #00bbd4 5%, #1085b0 100%);
+	background-color:#00bbd4;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.bottom-container {
+  background-color: #00bcd4;
+  padding: 50px 0 20px;
+}
+
+.footer-link{
+  color: white;
+  margin: 1.5rem;
+  text-decoration: none;
+}
+
+.copyright{
+  color: white;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color:  #dd2c00;
+    font-size: 5.625rem;
+    margin: 3.125rem auto 0;
+  }
+
+h2 {
+  color: #dd2c00;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+h3{
+  color: #00bcd4;
+  font-family: 'Philosopher', sans-serif;
+}
+p {
+line-height: 2
+}
+
+img {
+  height: 10rem;
+  width: 10rem;
+}
+
+hr {
+  border: dotted #FF5722 0.25rem;
+  border-bottom: none;
+  width: 4%;
+  margin: 6.25em  auto;
+
+}
